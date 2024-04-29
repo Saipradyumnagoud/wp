@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Our Catalog</h1>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Display Catalog Items -->
+        <section>
+            <!-- List of Books with Thumbnails and Titles -->
+            <div class="book">
+                <img src="book1.jpg" alt="Book 1">
+                <h2>Book 1 Title</h2>
+            </div>
+            <div class="book">
+                <img src="book2.jpg" alt="Book 2">
+                <h2>Book 2 Title</h2>
+            </div>
+            <!-- Add more books as needed -->
+        </section>
+    </main>
+    <footer>
+        <!-- Footer Content -->
+        <p>&copy; 2024 Online Book Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
