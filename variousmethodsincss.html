@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Methods Example</title>
+  <style>
+    /* Setting different fonts, styles, and background image */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-style: italic;
+      background-image: url('background.jpg');
+      background-size: cover; /* Control repetition of the image */
+    }
+
+    /* Define styles for links */
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    /* Layer with customized cursor */
+    .layer {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+    }
+
+    /* Custom cursor */
+    .custom-cursor {
+      cursor: url('custom-cursor.png'), auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Methods Example</h1>
+  <p>This is an example demonstrating various CSS methods.</p>
+  <p>This is a <a href="#">link</a>.</p>
+  
+  <!-- Layer with customized cursor -->
+  <div class="layer custom-cursor">
+    Click me
+  </div>
+</body>
+</html>
